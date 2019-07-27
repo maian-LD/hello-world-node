@@ -4,8 +4,12 @@
   "description": "our first node app",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "maian",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "10.16.0"
+  }
 }
